@@ -1,5 +1,6 @@
 const http = require("http");
 const fs = require("fs");
+// this is for heroku
 //const PORT = process.env.PORT;
 
 const handleReadFile = (statusCode, fileLocation,res,req) => {
