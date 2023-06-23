@@ -26,6 +26,7 @@ const handleReadFile = (statusCode, fileLocation,res,req) => {
   });
 
   server.listen(process.env.PORT || 3000);
+  // for heroku
   // server.listen(PORT, () => {
   //   console.log(`Server is running`);
   // });
